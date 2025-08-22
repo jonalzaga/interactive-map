@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9fb7bf31125e9c9896bf93705acfe530 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9fb7bf31125e9c9896bf93705acfe530" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9fb7bf31125e9c9896bf93705acfe530 = L.map(
+                "map_9fb7bf31125e9c9896bf93705acfe530",
+                {
+                    center: [43.1733, -2.1369],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d54affbecbb17f059408b217b1230779 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d54affbecbb17f059408b217b1230779.addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var marker_402beea47cf3cebbaaabff1af71d27dc = L.marker(
+                [43.02290543492231, -2.0887569426439403],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var icon_742f496334e8bcea9557ab1ea0f1992b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+                marker_402beea47cf3cebbaaabff1af71d27dc.setIcon(icon_742f496334e8bcea9557ab1ea0f1992b);
+            
+    
+            var marker_84cba88fdb3b5003a8c749e9e4a9c34d = L.marker(
+                [43.02290543492231, -2.0887569426439403],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var div_icon_2304d59a2540a71b471909280f8c1979 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"text-align:center;\n                            transform: translate(-50%, 25px);\n                            font-size: 12px;\n                            font-weight: bold;\n                            color: black;\"\u003e\n                    Txindoki\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+            marker_84cba88fdb3b5003a8c749e9e4a9c34d.setIcon(div_icon_2304d59a2540a71b471909280f8c1979);
+        
+    
+                marker_84cba88fdb3b5003a8c749e9e4a9c34d.setIcon(div_icon_2304d59a2540a71b471909280f8c1979);
+            
+    
+            var marker_314e40b47508c7793ec992769f6fc939 = L.marker(
+                [43.0358, -2.3581],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var icon_9bc6baa9f093a28f639f2d065ec202de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+                marker_314e40b47508c7793ec992769f6fc939.setIcon(icon_9bc6baa9f093a28f639f2d065ec202de);
+            
+    
+            var marker_c559fb8e053358ec7fdc47622cebbd5c = L.marker(
+                [43.0358, -2.3581],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var div_icon_0db9880b60198f9ff0a71d023c90cf12 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"text-align:center;\n                            transform: translate(-50%, 25px);\n                            font-size: 12px;\n                            font-weight: bold;\n                            color: black;\"\u003e\n                    Aizkorri\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+            marker_c559fb8e053358ec7fdc47622cebbd5c.setIcon(div_icon_0db9880b60198f9ff0a71d023c90cf12);
+        
+    
+                marker_c559fb8e053358ec7fdc47622cebbd5c.setIcon(div_icon_0db9880b60198f9ff0a71d023c90cf12);
+            
+    
+            var marker_54135b00ac2640b039e3ab4517a107a2 = L.marker(
+                [43.1844, -2.1069],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var icon_b35e1c42e7ff87c8e7cbb4222984cee4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+                marker_54135b00ac2640b039e3ab4517a107a2.setIcon(icon_b35e1c42e7ff87c8e7cbb4222984cee4);
+            
+    
+            var marker_2d5b6e05ca08004f7b89270b78751f86 = L.marker(
+                [43.1844, -2.1069],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var div_icon_f3210a723f88c78f138ab074cb75edb6 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"text-align:center;\n                            transform: translate(-50%, 25px);\n                            font-size: 12px;\n                            font-weight: bold;\n                            color: black;\"\u003e\n                    Ernio\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+            marker_2d5b6e05ca08004f7b89270b78751f86.setIcon(div_icon_f3210a723f88c78f138ab074cb75edb6);
+        
+    
+                marker_2d5b6e05ca08004f7b89270b78751f86.setIcon(div_icon_f3210a723f88c78f138ab074cb75edb6);
+            
+    
+            var marker_cee0509b302634b8a58e5a4918f39538 = L.marker(
+                [43.2506, -2.0439],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var icon_5f1c7aff640f7e0f89dd2ec67733a316 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+                marker_cee0509b302634b8a58e5a4918f39538.setIcon(icon_5f1c7aff640f7e0f89dd2ec67733a316);
+            
+    
+            var marker_a8925a326c2664eb254d0bb54fb9aebc = L.marker(
+                [43.2506, -2.0439],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var div_icon_a77fd7620fa60efc84777c2b5fa9eae4 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"text-align:center;\n                            transform: translate(-50%, 25px);\n                            font-size: 12px;\n                            font-weight: bold;\n                            color: black;\"\u003e\n                    Adarra\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+            marker_a8925a326c2664eb254d0bb54fb9aebc.setIcon(div_icon_a77fd7620fa60efc84777c2b5fa9eae4);
+        
+    
+                marker_a8925a326c2664eb254d0bb54fb9aebc.setIcon(div_icon_a77fd7620fa60efc84777c2b5fa9eae4);
+            
+    
+            var marker_10ef0b6d40877a2919093629b5cf9619 = L.marker(
+                [43.3586, -1.8614],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var icon_1550b135c41088e9147c7daf57b20984 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+                marker_10ef0b6d40877a2919093629b5cf9619.setIcon(icon_1550b135c41088e9147c7daf57b20984);
+            
+    
+            var marker_efe75003a8016556dd763fa08ccfcb1a = L.marker(
+                [43.3586, -1.8614],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var div_icon_4e08f400be26ce0730cf00a4297fdb38 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"text-align:center;\n                            transform: translate(-50%, 25px);\n                            font-size: 12px;\n                            font-weight: bold;\n                            color: black;\"\u003e\n                    Jaizkibel\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+            marker_efe75003a8016556dd763fa08ccfcb1a.setIcon(div_icon_4e08f400be26ce0730cf00a4297fdb38);
+        
+    
+                marker_efe75003a8016556dd763fa08ccfcb1a.setIcon(div_icon_4e08f400be26ce0730cf00a4297fdb38);
+            
+    
+            var marker_e8e3992d957cef725099f7ae48aea001 = L.marker(
+                [43.3072, -1.8175],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var icon_e8c6a847c13391ec101ca977a8c09ea0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+                marker_e8e3992d957cef725099f7ae48aea001.setIcon(icon_e8c6a847c13391ec101ca977a8c09ea0);
+            
+    
+            var marker_0b1155176723a454aee5854e921ab8b0 = L.marker(
+                [43.3072, -1.8175],
+                {
+}
+            ).addTo(map_9fb7bf31125e9c9896bf93705acfe530);
+        
+    
+            var div_icon_e2ccb8b6f14bb6dec089b48b0e8dd9f0 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"text-align:center;\n                            transform: translate(-50%, 25px);\n                            font-size: 12px;\n                            font-weight: bold;\n                            color: black;\"\u003e\n                    Pe\u00f1as de Aia\n                \u003c/div\u003e\n            ",
+  "className": "empty",
+});
+            marker_0b1155176723a454aee5854e921ab8b0.setIcon(div_icon_e2ccb8b6f14bb6dec089b48b0e8dd9f0);
+        
+    
+                marker_0b1155176723a454aee5854e921ab8b0.setIcon(div_icon_e2ccb8b6f14bb6dec089b48b0e8dd9f0);
+            
+</script>
+</html>
