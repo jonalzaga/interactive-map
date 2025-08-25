@@ -1,31 +1,42 @@
 import folium
 import pandas as pd
 
-# Create a map centered on Ernio with an initial zoom level of 10
+# Create the map centered on Ernio
 m = folium.Map(location=[43.1733, -2.1369], zoom_start=10)
 
-# Read mountain data from a CSV (or .txt) file into a pandas DataFrame
+# Read mountain data from a CSV/TXT file
 df = pd.read_csv("mountains_data.txt")
-print(df)  # Print DataFrame to verify contents (optional)
 
-# Iterate over the DataFrame rows one by one
+# Iterate over each row in the DataFrame
 for _, row in df.iterrows():
-    name = row["name"]          # Mountain name
-    coords = [row["lat"], row["lon"]]  # Latitude and longitude as a list
-    climbed = row["climbed"]        # Boolean flag (True if climbed, False otherwise)
+    print(_)
+    name = row["name"]           # Mountain name
+    coords = [row["lat"], row["lon"]]  # Latitude and longitude
+    climbed = bool(row["climbed"])     # Boolean (True if climbed, False otherwise)
+    url = row["url"]             # URL with more info
 
-    # Conditional expression: choose color depending on climb status
+    # Icon color depending on climbed status
     color = "green" if climbed else "red"  
 
-    # Add a marker with a flag icon at the mountain's location
-    # Color is green if climbed, red if not
+    # --- Popup with clickable link ---
+    popup_html = f"""
+    <div style="text-align:center; font-size:14px; font-weight:bold;">
+      <a href="{url}" target="_blank" rel="noopener noreferrer"
+         style="color:black; text-decoration:none;"
+         onmouseover="this.style.textDecoration='underline';"
+         onmouseout="this.style.textDecoration='none';">
+        {name}
+      </a>
+    </div>
+    """
+
     folium.Marker(
         location=coords,
         icon=folium.Icon(color=color, icon="flag"),
+        popup=folium.Popup(popup_html, max_width=250)
     ).add_to(m)
 
-    # Add a bold text label below the marker showing the mountain's name
-    # This uses a DivIcon with HTML/CSS to position and style the label
+    # --- Visible label below the marker ---
     folium.map.Marker(
         location=coords,
         icon=folium.DivIcon(
@@ -41,5 +52,5 @@ for _, row in df.iterrows():
         )
     ).add_to(m)
 
-# Save the generated map into an interactive HTML file
+# Save the map into an interactive HTML file
 m.save("mountains_pandas.html")

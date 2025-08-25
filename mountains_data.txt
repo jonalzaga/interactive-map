@@ -1,13 +1,13 @@
-name,lat,lon,climbed
-Txindoki,43.0229,-2.0887,True
-Aizkorri,43.0358,-2.3581,True
-Ernio,43.1844,-2.1069,True
-Adarra,43.2506,-2.0439,True
-Jaizkibel,43.3586,-1.8614,True
-Peñas de Aia,43.3072,-1.8175,True
-Izarraitz (Erlo),43.2683,-2.2914,True
-Uzturre,43.1347,-2.0481,False
-Igeldo,43.3078,-2.0272,True
-Irimo,43.1522,-2.2742,True
-Andutz,43.2850,-2.3539,True
-Kukuarri,43.2947,-2.0503,True
+name,lat,lon,climbed,url
+Txindoki,43.0229,-2.0887,True,https://www.wikiloc.com/wikiloc/user.do?id=10811866
+Aizkorri,43.0358,-2.3581,True,https://www.wikiloc.com/wikiloc/user.do?id=10811866
+Ernio,43.1844,-2.1069,True,https://www.wikiloc.com/wikiloc/user.do?id=10811866
+Adarra,43.2506,-2.0439,True,https://www.wikiloc.com/wikiloc/user.do?id=10811866
+Jaizkibel,43.3586,-1.8614,True,https://www.wikiloc.com/wikiloc/user.do?id=10811866
+Peñas de Aia,43.3072,-1.8175,True,https://www.wikiloc.com/wikiloc/user.do?id=10811866
+Izarraitz (Erlo),43.2683,-2.2914,True,https://www.wikiloc.com/wikiloc/user.do?id=10811866
+Uzturre,43.1347,-2.0481,False,https://www.wikiloc.com/wikiloc/user.do?id=10811866
+Igeldo,43.3078,-2.0272,True,https://www.wikiloc.com/wikiloc/user.do?id=10811866
+Irimo,43.1522,-2.2742,True,https://www.wikiloc.com/wikiloc/user.do?id=10811866
+Andutz,43.2850,-2.3539,True,https://www.wikiloc.com/wikiloc/user.do?id=10811866
+Kukuarri,43.2947,-2.0503,True,https://www.wikiloc.com/wikiloc/user.do?id=10811866
