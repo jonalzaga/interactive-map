@@ -1,0 +1,38 @@
+name,province,lat,lon,climbed,climbed_date,url,challenge
+Adarra,Gipuzkoa,43.20666619106603, -1.9612599599391516,True,19/8/2023,https://www.wikiloc.com/hiking-trails/adarra-cromlech-de-elurzulo-and-cromlech-de-arleorko-zabala-from-besabi-215122600,true
+Aiako Harria,Gipuzkoa,43.28690380233355, -1.783458171434074,True,10/08/2023,https://www.wikiloc.com/hiking-trails/pena-pikuak-143300241,true
+Aitzleor / Unamendi,Gipuzkoa,42.98641642727963, -2.2522769909435585,True,13/10/2023,https://www.wikiloc.com/hiking-trails/no-me-acuerdo-el-nombre-150104237,true
+Aitzorrotz,Gipuzkoa,43.00164595576817, -2.54058942757451,True,19/11/2023,https://www.wikiloc.com/trails?q=Aitzorrotz,true
+Aizkorri,Gipuzkoa,42.951423228347565, -2.325851952097512,True,9/9/2023,https://www.wikiloc.com/hiking-trails/hit-me-baby-one-more-time-146563276,true
+Andatza,Gipuzkoa,43.24710123375089, -2.0776428841100354,True,26/8/2023,https://www.wikiloc.com/hiking-trails/andatza-145204549,true
+Andutz,Gipuzkoa,43.26650943915213, -2.322932385067558,True,7/10/2023,https://www.wikiloc.com/hiking-trails/itziar-149496290,true
+Arbarain,Gipuzkoa,42.89539621026255, -2.253450003756079,True,15/9/2024,https://www.wikiloc.com/hiking-trails/aiztxipi-arbarrain-and-ibirigana-from-ziordia-184948882,true
+Arranoaitz,Gipuzkoa,42.99193835951728, -2.3133987929003337,True,28/7/2024,https://www.wikiloc.com/hiking-trails/arrola-arranoaitz-and-gorostiaga-from-bikuna-178940282,true
+Bianditz,Gipuzkoa,43.24736238590124, -1.7888232697766644,True,13/8/2023,https://www.wikiloc.com/hiking-trails/bianditz-143645678,true
+Buruntza,Gipuzkoa,43.23907502654579, -2.0154513945359525,True,17/9/2023,https://www.wikiloc.com/hiking-trails/pollo-loco-147353829,true
+Erlo / Xoxote,Gipuzkoa,43.20001035376739, -2.2879373092486768,True,30/9/2023,https://www.wikiloc.com/hiking-trails/erlo-xoxote-148681333,true
+Ernio,Gipuzkoa,43.17063381694086, -2.15552925671317,True,19/8/2023,https://www.wikiloc.com/trails?q=Ernio,true
+Ganbo,Gipuzkoa,43.00525864577631, -2.0655055105230704,True,6/10/2023,https://www.wikiloc.com/trails?q=Ganbo,true
+Gorgomendi,Gipuzkoa,42.998590579029035, -2.3999167747173984,True,26/11/2023,https://www.wikiloc.com/trails?q=Gorgomendi,true
+Irimo,Gipuzkoa,43.10067641608756, -2.339649460675563,True,26/5/2024,https://www.wikiloc.com/trails?q=Irimo,true
+Irukurutzeta,Gipuzkoa,43.17684520928289, -2.365980192908066,False,,https://www.wikiloc.com/trails?q=Irukurutzeta,true
+Irumugarrieta,Gipuzkoa,43.000752254794534, -2.023763224398852,False,,https://www.wikiloc.com/trails?q=Irumugarrieta,true
+Jaizkibel,Gipuzkoa,43.34546562967867, -1.8588149923490438,True,15/6/2023,https://www.wikiloc.com/trails?q=Jaizkibel,true
+Kalamua,Gipuzkoa,43.22640267383471, -2.4611209992018668,False,,https://www.wikiloc.com/trails?q=Kalamua,true
+Kizkitza,Gipuzkoa,43.08388595987966, -2.259182231937335,True,14/7/2024,https://www.wikiloc.com/trails?q=Kizkitza,true
+Kukuarri,Gipuzkoa,43.29260855657576, -2.1067084511824508,True,23/3/2024,https://www.wikiloc.com/hiking-trails/iglesia-de-orio-ermita-de-san-martin-and-kukuarri-from-bikamiota-203409890,true
+Kurtzebarri,Gipuzkoa,43.00151233172091, -2.4956773914179564,True,27/12/2023,https://www.wikiloc.com/trails?q=Kurtzebarri,true
+Murumendi,Gipuzkoa,43.09182522749205, -2.1999911054472503,True,5/1/2025,https://www.wikiloc.com/trails?q=Murumendi,true
+Otsabio,Gipuzkoa,43.097393664634005, -2.0548845044460204,True,10/12/2023,https://www.wikiloc.com/trails?q=Otsabio,true
+San Antón,Gipuzkoa,43.309086894853394, -2.201191091964053,True,13/4/2024,https://www.wikiloc.com/trails?q=San%20Ant%C3%B3n,true
+Santagrazi,Gipuzkoa,43.222303611758576, -2.2231633410645366,True,4/8/2024,https://www.wikiloc.com/trails?q=Santagrazi,true
+Sarastarri,Gipuzkoa,42.98506378643046, -2.126634489214829,False,,https://www.wikiloc.com/trails?q=Sarastarri,true
+Tontorramendi,Gipuzkoa,43.308095571145564, -2.429277074588585,False,,https://www.wikiloc.com/trails?q=Tontorramendi,true
+Txaradigorri,Gipuzkoa,42.94852872615316, -2.100184924176758,False,,https://www.wikiloc.com/trails?q=Txaradigorri,true
+Txindoki,Gipuzkoa,43.02316637997773, -2.090806426125441,True,28/4/2024,https://www.wikiloc.com/trails?q=Txindoki,true
+Udalatx,Gipuzkoa,43.09016229627123, -2.513097675084389,True,8/9/2024,https://www.wikiloc.com/trails?q=Udalatx,true
+Ulia,Gipuzkoa,43.33041677274341, -1.9588849075153107,True,20/4/2024,https://www.wikiloc.com/trails?q=Ulia,true
+Urdaburu,Gipuzkoa,43.237732050333086, -1.9004308652332031,True,12/8/2023,https://www.wikiloc.com/trails?q=Urdaburu,true
+Uzturre,Gipuzkoa,43.154049212276014, -2.0471176615721065,True,5/4/2024,https://www.wikiloc.com/trails?q=Uzturre,true
+Igeldo,Gipuzkoa,43.3078,-2.0272,True,,https://www.wikiloc.com/wikiloc/user.do?id=10811866,false
+
