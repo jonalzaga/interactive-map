@@ -17,7 +17,7 @@ Layers:
 - Challenge (35) (only challenge peaks + Gipuzkoa polygon in a different color)
 
 Output:
-- docs/hiking_map.html (for GitHub Pages)
+- docs/index.html (for GitHub Pages)
 """
 from __future__ import annotations
 
@@ -33,7 +33,7 @@ import pandas as pd
 # --- Paths ---
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-OUT_HTML = ROOT / "docs" / "hiking_map.html"
+OUT_HTML = ROOT / "docs" / "index.html"
 
 PROVINCES_FILE = DATA / "georef-spain-provincia.json"
 MOUNTAINS_FILE = DATA / "mountains_data.txt"
