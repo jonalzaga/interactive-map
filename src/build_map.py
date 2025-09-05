@@ -43,12 +43,14 @@ OUT_HTML = ROOT / "docs" / "index.html"
 
 PROVINCES_FILE = DATA / "georef-spain-provincia.json"
 MOUNTAINS_FILE = DATA / "mountains_data.txt"
+JAPAN_FILE = DATA / "world.json"
 
 # --- Map config ---
 MAP_CENTER: Tuple[float, float] = (43.1733, -2.1369)
 MAP_ZOOM = 10
 COLOR_GIPUZKOA = "blue"
 COLOR_NAVARRA = "red"
+COLOR_JAPAN = "red"
 COLOR_CHALLENGE = "purple"
 ICON_CLIMBED: Dict[bool, str] = {True: "green", False: "red"}
 
@@ -147,7 +149,7 @@ def add_marker_and_label(
     ).add_to(group)
 
 
-def load_provinces(path: Path) -> tuple[Dict[str, Any], Dict[str, Any]]:
+def load_provinces(name: str, path: Path) -> tuple[Dict[str, Any], Dict[str, Any]]:
     """Load province polygons and return the GeoJSON shapes for Gipuzkoa and Navarra.
 
     The provinces file contains a list of province records where each record has
@@ -164,9 +166,13 @@ def load_provinces(path: Path) -> tuple[Dict[str, Any], Dict[str, Any]]:
     """
     with path.open(encoding="utf-8-sig") as f:
         data = json.load(f)
-    gip = next(x["geo_shape"] for x in data if x["prov_name"] == "Gipuzkoa")
-    nav = next(x["geo_shape"] for x in data if x["prov_name"] == "Navarra")
-    return gip, nav
+
+    if name == "Japan":
+        return next(x["geometry"] for x in data["features"] if x["properties"]["NAME"] == name)
+    else:
+        return next(x["geo_shape"] for x in data if x["prov_name"] == name)
+
+    
 
 
 def load_mountains(path: Path) -> pd.DataFrame:
@@ -211,15 +217,19 @@ def build_map() -> folium.Map:
     m = folium.Map(location=MAP_CENTER, zoom_start=MAP_ZOOM, tiles=None)
     folium.TileLayer("OpenStreetMap", name="Base map").add_to(m)
 
-    gip_geo, nav_geo = load_provinces(PROVINCES_FILE)
+    gip_geo = load_provinces("Gipuzkoa",PROVINCES_FILE)
+    nav_geo = load_provinces("Navarra", PROVINCES_FILE)
+    japan_geo = load_provinces("Japan", JAPAN_FILE)
 
     fg_gip = folium.FeatureGroup(name="Gipuzkoa", show=True).add_to(m)
     fg_nav = folium.FeatureGroup(name="Navarra", show=True).add_to(m)
     fg_chal = folium.FeatureGroup(name="Challenge (35)").add_to(m)
+    fg_japan = folium.FeatureGroup(name="Japan", show=True).add_to(m)
 
     add_poly(fg_gip, gip_geo, fill_color=COLOR_GIPUZKOA, border_color=COLOR_GIPUZKOA)
     add_poly(fg_nav, nav_geo, fill_color=COLOR_NAVARRA, border_color=COLOR_NAVARRA)
     add_poly(fg_chal, gip_geo, fill_color=COLOR_CHALLENGE, border_color=COLOR_CHALLENGE)
+    add_poly(fg_japan, japan_geo, fill_color=COLOR_JAPAN, border_color=COLOR_JAPAN)
 
     df = load_mountains(MOUNTAINS_FILE)
 
@@ -245,6 +255,8 @@ def build_map() -> folium.Map:
                 add_marker_and_label(lat, lon, r.get("name"), r.get("url"), color, fg_chal)
         elif prov == "Navarra":
             add_marker_and_label(lat, lon, r.get("name"), r.get("url"), color, fg_nav)
+        elif prov == "Japan":
+            add_marker_and_label(lat, lon, r.get("name"), r.get("url"), color, fg_japan)
 
     folium.LayerControl(collapsed=False).add_to(m)
     return m
