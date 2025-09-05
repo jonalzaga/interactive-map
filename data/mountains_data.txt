@@ -35,4 +35,13 @@ Ulia,Gipuzkoa,43.33041677274341, -1.9588849075153107,True,20/4/2024,https://www.
 Urdaburu,Gipuzkoa,43.237732050333086, -1.9004308652332031,True,12/8/2023,https://www.wikiloc.com/trails?q=Urdaburu,true
 Uzturre,Gipuzkoa,43.154049212276014, -2.0471176615721065,True,5/4/2024,https://www.wikiloc.com/trails?q=Uzturre,true
 Igeldo,Gipuzkoa,43.3078,-2.0272,True,,https://www.wikiloc.com/wikiloc/user.do?id=10811866,false
+Nara Park,Japan,34.685105861974094, 135.8430972232563,True,4/11/2024,https://www.wikiloc.com/hiking-trails/nara-190642695,False
+Mount Misen,Japan,34.27974580940841, 132.32047548141995,True,10/11/2024,https://www.wikiloc.com/hiking-trails/mt-misen-momijidani-course-191234935,False
+Aso Nakadake Crater 1,Japan,32.88593409739904, 131.0884963736217,True,12/11/2024,https://www.wikiloc.com/hiking-trails/aso-crater-191500537,False
+Takachiho Gorge,Japan,32.701353381013334, 131.30091835157052,True,12/11/2024,https://www.wikiloc.com/hiking-trails/takachiho-191504903,False
+Nakatsu Gorge,Japan,33.56114609889449, 133.13037021154165,True,14/11/2024,https://www.wikiloc.com/hiking-trails/nakatsu-gorge-191659697,False
+Unpen Temple,Japan,34.03605012455253, 133.7234567237228,True,15/11/2024,https://www.wikiloc.com/hiking-trails/umpenji-temple-191755906,False
+
+
+
 
