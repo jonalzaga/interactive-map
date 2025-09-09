@@ -41,3 +41,29 @@ Aso Nakadake Crater 1,Japan,32.88593409739904,131.0884963736217,True,12/11/2024,
 Takachiho Gorge,Japan,32.701353381013334,131.30091835157052,True,12/11/2024,https://www.wikiloc.com/hiking-trails/takachiho-191504903,False
 Nakatsu Gorge,Japan,33.56114609889449,133.13037021154165,True,14/11/2024,https://www.wikiloc.com/hiking-trails/nakatsu-gorge-191659697,False
 Unpen Temple,Japan,34.03605012455253,133.7234567237228,True,15/11/2024,https://www.wikiloc.com/hiking-trails/umpenji-temple-191755906,False
+Irurtzun,Navarra,42.92221157013126, -1.8345338825136817,True,26/6/2025,https://www.wikiloc.com/nordic-walking-trails/ruta-pescadores-irurtzun-219579768,False
+Camping Echarri,Navarra,42.91276963285386, -2.079580385159795,True,24/6/2025,https://www.wikiloc.com/hiking-trails/ruta-robles-milenarios-camping-echarri-219340639,False
+Camping Acedo,Navarra,42.66118504203767, -2.250149517260234,True,27/6/2024,https://www.wikiloc.com/hiking-trails/camping-acedo-encino-3-patas-175458628,False
+Mirador Lazkua,Navarra,42.71102471304493, -2.0610265643536634,True,26/6/2024,https://www.wikiloc.com/hiking-trails/puerto-de-eraul-and-mirador-de-lazkua-from-eraul-175382254,False
+Urederra,Navarra,42.80626287483071, -2.128022584750686,True,24/6/2024,https://www.wikiloc.com/hiking-trails/urederra-175203021,False
+Monjardin,Navarra,42.63389801490292, -2.1077716698550057,True,24/6/2023,https://www.wikiloc.com/hiking-trails/monjardin-y-su-castillo-de-san-esteban-de-deyo-monjardin-por-villamayor-de-monjardin-53496298,False
+Montejurra,Navarra,42.6311678448454, -2.0443933999778063,True,26/6/2023,https://www.wikiloc.com/hiking-trails/ruta-circular-a-montejurra-desde-el-monasterio-de-iratxe-sierra-de-montejurra-6027120,False
+Mendaur,Navarra,43.15536751552503, -1.7214076249013757,False,,https://www.wikiloc.com/hiking-trails/mendaur-circular-desde-ituren-50001208,False
+Bargagain Hayedo Encantado,Navarra,42.86663851953086, -2.1547498631339823,False,,https://www.wikiloc.com/hiking-trails/urbasa-la-senda-de-los-montaneros-cruz-bargagain-hayedo-encantado-141537386,False
+Ermita Trinidad de Iturgoyen,Navarra,42.81238688462668, -1.9800582903257469,False,,https://www.wikiloc.com/hiking-trails/ruta-circular-desde-lezaun-pasando-por-trinidad-de-iturgoien-artxurieta-malkasko-y-oskandia-sierra-187428840,False
+Balcón de los buitres,Navarra,42.93112965794413, -1.81812744362385,False,,https://www.wikiloc.com/hiking-trails/balcon-de-los-buitres-erga-y-ermita-de-la-trinidad-desde-irurzun-44896287,False
+Embalse Lareo,Navarra,42.97784934195229, -2.113791569608087,False,,https://www.wikiloc.com/hiking-trails/parque-natural-aralar-lizarrusti-embalse-lareo-cueva-lareo-lizarrusti-98265521,False
+Maiza,Navarra,42.87450007616674, -2.0852840774398795,False,,https://www.wikiloc.com/hiking-trails/santa-marina-ojo-iruaitzeta-maiza-desde-tximista-98184519,False
+Ojo de legunbe,Navarra,42.850937194334634, -2.236468252863174,False,,https://www.wikiloc.com/hiking-trails/3cimas-bigate-1125m-legunbe-1128m-belleku-1055m-cascadas-de-la-toberia-ojo-de-legunbe-95103289,False
+Beriain-San Donato,Navarra,42.888642131945524, -1.9834759569550622,False,,https://www.wikiloc.com/hiking-trails/beriain-san-donato-1-493-metros-ruta-lineal-por-el-kilometro-vertical-y-el-portillo-de-huarte-desde-187212073,False
+Artxueta,Navarra,42.95285062985619, -1.9630539488033167,False,,https://www.wikiloc.com/hiking-trails/tk-ruta-633-subida-a-artxueta-1341-m-desde-san-miguel-de-aralar-invernal-ida-y-vuelta-125701432,False
+Arrako,Navarra,42.92854621519282, -0.8588300992305877,False,,https://www.wikiloc.com/walking-trails/sl-na-80-vuelta-de-arrako-salida-desde-txamantxoia-borda-juan-pito-cascada-de-arrako-y-ermita-de-ar-193442906,False
+Cascada de Artazul,Navarra,42.855930340838825, -1.8542148132863745,False,,https://www.wikiloc.com/hiking-trails/circular-cascada-de-artazul-mortxe-y-saldise-desde-ulzurrun-159052773,False
+Foz de Lumbier,Navarra,42.63832252607853, -1.3084541148996898,False,,https://www.wikiloc.com/hiking-trails/foz-de-lumbier-por-arriba-ojos-de-lumbier-y-trinidad-de-lumbier-71899068,False
+Castillo de Olite,Navarra,42.481866294929176, -1.6482526464692047,False,,https://www.wikiloc.com/hiking-trails/olite-beire-8389947,False
+Fuentes de Ujué-Uxue,Navarra,42.514640449401725, -1.5098365743687545,False,,https://www.wikiloc.com/hiking-trails/fuentes-de-ujue-uxue-20370345#directions,False
+Santa maria de Eunate,Navarra,42.67225093082069, -1.7613398981987811,False,,https://www.wikiloc.com/hiking-trails/santa-maria-de-eunate-muruzabal-184961680,False
+Dólmenes de Artajona,Navarra,42.587666731343596, -1.7636760918019674,False,,https://www.wikiloc.com/walking-trails/dolmenes-de-artajona-y-cerco-5732288,False
+Castillo de Falahsan,Navarra,42.3886411173065, -1.7971842083725045,False,,https://www.wikiloc.com/hiking-trails/castillo-de-los-moros-o-castillo-de-falahsan-humedal-del-soto-abajo-5880352#,False
+Erga,Navarra,42.928153946844006, -1.812163819157651,False,,https://www.wikiloc.com/hiking-trails/aizkorbe-ermita-trinidad-erga-erga-1094m-aizkorbe-91438844,False
+Barranco de Peñalén,Navarra,42.301445879759214, -1.7952380945769442,False,,https://www.wikiloc.com/hiking-trails/barranco-de-penalen-desde-funes-alto-gurugu-ermita-de-la-v-del-portegado-barranco-penalen-confluenc-96660226,False

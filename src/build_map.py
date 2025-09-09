@@ -221,14 +221,14 @@ def build_map() -> folium.Map:
     nav_geo = load_provinces("Navarra", PROVINCES_FILE)
     japan_geo = load_provinces("Japan", JAPAN_FILE)
 
-    fg_gip = folium.FeatureGroup(name="Gipuzkoa", show=True).add_to(m)
-    fg_nav = folium.FeatureGroup(name="Navarra", show=True).add_to(m)
     fg_chal = folium.FeatureGroup(name="Challenge (35)").add_to(m)
-    fg_japan = folium.FeatureGroup(name="Japan", show=True).add_to(m)
+    fg_gip = folium.FeatureGroup(name="Gipuzkoa", show=False).add_to(m)
+    fg_nav = folium.FeatureGroup(name="Navarra", show=False).add_to(m)
+    fg_japan = folium.FeatureGroup(name="Japan").add_to(m)
 
     add_poly(fg_gip, gip_geo, fill_color=COLOR_GIPUZKOA, border_color=COLOR_GIPUZKOA)
-    add_poly(fg_nav, nav_geo, fill_color=COLOR_NAVARRA, border_color=COLOR_NAVARRA)
     add_poly(fg_chal, gip_geo, fill_color=COLOR_CHALLENGE, border_color=COLOR_CHALLENGE)
+    add_poly(fg_nav, nav_geo, fill_color=COLOR_NAVARRA, border_color=COLOR_NAVARRA)
     add_poly(fg_japan, japan_geo, fill_color=COLOR_JAPAN, border_color=COLOR_JAPAN)
 
     df = load_mountains(MOUNTAINS_FILE)
